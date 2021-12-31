@@ -19,8 +19,8 @@ void setup()
   lcd.print("Merry Christmas");
 
   // Second row
-  lcd.setCursor(0,1);
-  lcd.print("+");
+  // lcd.setCursor(0,1);
+  // lcd.print("");
 }
 
 void loop()
