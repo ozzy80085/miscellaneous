@@ -28,6 +28,6 @@ os.system(f"mv /tmp/0000 /tmp/000")
 os.system(f"mv /tmp/000 /tmp/00") 
 os.system(f"mv /tmp/00 /tmp/0")
 
-#removing the file
+#Removing the file
 os.system(f"rm /tmp/0")
 print(f"{e} successfully purged")
