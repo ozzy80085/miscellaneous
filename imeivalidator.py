@@ -1,7 +1,7 @@
-#https://www.geeksforgeeks.org/luhn-algorithm/
-#15 digits
+#imei is 15 digits
 
 #im aware that this code is both messy and not very efficient but it works
+#this program validates an imei number using the luhn algorithm which you can read about here https://www.geeksforgeeks.org/luhn-algorithm/
 
 orig = "522857152301042"
 
