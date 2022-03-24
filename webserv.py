@@ -1,7 +1,7 @@
 import socket
 
-HOST = "0.0.0.0"
-PORT = 8080
+host = "0.0.0.0"
+port = 8080
 
 file = open("index.html", "r")
 html = file.read()
@@ -10,8 +10,8 @@ file.close()
 html = bytes(html, "utf-8")
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind((HOST, PORT))
-print(f"Listening for incoming connections on {HOST}:{PORT}")
+s.bind((host, port))
+print(f"Listening for incoming connections on {host}:{port}")
 
 while True:
 	s.listen()
