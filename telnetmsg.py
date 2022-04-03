@@ -1,7 +1,7 @@
 import socket
 
 #the following sends the specified message then close the connection but continue to listen for incomming connections
-#i can think of a reason when this would be useful but you never know
+#i cant think of a reason when this would be useful but you never know
 
 
 HOST = "127.0.0.1"  
