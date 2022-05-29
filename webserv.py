@@ -11,7 +11,7 @@ if loadfile == True:
 	file.close()
 
 if loadfile == False:
-	html = f"""<DOCTYPE html>
+	html = f"""<!DOCTYPE html>
 <html>
   <body>
     <center><h1>Hello World!</h1></center>
